@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="GxG.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400;500;700&family=League+Gothic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/35c2dacc9e.js" crossorigin="anonymous"></script>
+	<title>Garo Xa Garo</title>
+</head>
+<body>
+  <section class="abheader">
+  	<nav>
+  		<a href="GxG.html" ><img src="eagle.png" width="100px" height="80px"></a>
+  		<div class="links" id="nlinks">
+  			<i class="fa fa-times" onclick="hideMenu()"></i>
+  			<ul>
+  				<li><a href="GxG.html">Home</a></li>
+  				<li><a href="">About us</a></li>
+  				<li><a href="">Contact us</a></li>
+  				<li><a href="">Join Us</a></li>
+  			</ul>
+  		</div>
+  		<i class="fa fa-bars" onclick="showMenu()"></i>
+  	</nav>
+  	    <h1>Contact Us</h1>
+        <p>To Play , To Rule With Us</p>
+  </section>
+  <!---Contact Us------>
+  <section calss="contact-us">
+    <div class="row2">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-home"> </i>
+          <span>
+            <h5> Xyz,hfjfhj</h5>
+            <p>banglore,shf</p>
+          </span>
+        </div>
+      </div>
+       <div class="contact-col">
+         <i class="fa fa-phone"> </i>
+          <span>
+            <h5> +977</h5>
+            <p>10 to 12</p>
+          </span>
+       </div>
+        <div class="contact-col">
+          <i class="fa fa-envelope-o"> </i>
+          <span>
+            <h5> roshankhati01@gmail.com</h5>
+            <p>Mail us For Query</p>
+          </span>
+        </div>
+    </div>
+  </section>
+  <div class="contact-col">
+    <fieldset>
+      <legend class="leg">Form</legend>
+  <form action="">
+    Name:
+    <input type="text" name="name" placeholder="Your Full Name"><br>
+    Email:
+    <input type="email" name="email" placeholder="Your E-mail Address"><br>
+    Phone Number:
+    <input type="Number" name="number" placeholder="Number"><br>
+    Address:
+    <input type="text" name="Address" placeholder="Your Address"><br>
+    Thoughts:<br>
+    <textarea rows="8" name="thoughts" placeholder="Your Thoughts"></textarea><br>
+    <button type="submit" class="co-bu"> Send Message</button><br><br>
+  </form>  
+  </fieldset> 
+</div>
+   <!-------About us------>
+   <section class="us">
+     <h4>About us</h4>
+     <p>Play The Games Like Bitches Play With Boys -Roshan Khadka<br>Number:-+977 9861720199 <br>Mailsus</p>
+     <div class="icons">
+       <a href=""><i class="fa fa-facebook"></i></a>
+       <a href=""><i class="fa fa-twitter"></i></a>
+       <a href=""><i class="fa fa-instagram"></i></a>
+       <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+     </div>
+     <p>Made With <i class="fa fa-heart-o"></i> -By Roshan Khadka </p>
+   </section>
+<!-------JavaScript for Toggle Menu------>
+  <script type="text/javascript">
+  	var nLinks = document.getElementByIddd("nlinks");
+  	function showMenu(){
+  		nlinks.style.right="0px"
+  	}
+  		function hideMenu(){
+  		nlinks.style.right="-200px"
+  	}
+  </script>
+</body>
+</html>
